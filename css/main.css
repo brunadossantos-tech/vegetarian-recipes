@@ -380,7 +380,7 @@ hero
 */
 .hero {
   height: 49vh;
-  background: url("../assets/veggies.jpeg") center/cover no-repeat;
+  background: url("../assets/photos/veggies.jpeg") center/cover no-repeat;
   margin-bottom: 2rem;
   border-radius: var(--borderRadius);
   position: relative;

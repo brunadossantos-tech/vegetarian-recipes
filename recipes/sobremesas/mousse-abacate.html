@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vegetarian Recipes || Single Recipe</title>
+    <!-- favicon -->
+    <link rel="shortcut icon" href="./assets/favicon.ico" type="image/x-icon" />
+    <!-- normalize -->
+    <link rel="stylesheet" href="/css/normalize.css" />
+    <!-- font-awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" />
+    <!-- main css -->
+    <link rel="stylesheet" href="/css/main.css" />
+</head>
+
+<body>
+    <!--nav-->
+    <nav class="navbar">
+        <div class="nav-center">
+            <!--header-->
+            <div class="nav-header">
+                <a href="/index.html" class="nav-logo">
+                    <img src="/assets/logo.svg" alt="simply recipes">
+                </a>
+                <button type="button" class="btn nav-btn">
+                    <i class="fas fa-align-justify"></i>
+                </button>
+            </div>
+            <!--links-->
+            <div class="nav-links">
+                <a href="/index.html" class="nav-link">home</a>
+                <a href="/about.html" class="nav-link">about</a>
+                <a href="/tags.html" class="nav-link">tags</a>
+                <a href="/recipes.html" class="nav-link">receitas</a>
+                <div class="nav-link contact-link">
+                    <a href="/contact.html" class="btn">contact</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!--end of nav-->
+    <!--main-->
+    <main class="page">
+        <div class="recipe-page">
+            <section class="recipe-hero">
+                <img src="/assets/photos/mousse-abacate.jpeg" class="img recipe-hero-img" alt="mousse de acabate" />
+                <article>
+                    <h2>Mousse de Abacate e Chocolate</h2>
+                    <p>
+                        Uma opção á tradicional mousse de chocolate, para comer sem culpa.
+                        Feita com apenas 6 ingredientes, é fácil e rápida de preparar.
+                    </p>
+                    <!-- recipe icons-->
+                    <div class="recipe-icons">
+                        <!--single recipe icon-->
+                        <article>
+                            <i class="fas fa-clock"></i>
+                            <h5>tempo preparação</h5>
+                            <p>15 min.</p>
+                        </article>
+                        <!--single recipe icon-->
+                        <article>
+                            <i class="far fa-clock"></i>
+                            <h5>tempo cozedura</h5>
+                            <p>30 min.</p>
+                        </article>
+                        <article>
+                            <i class="fas fa-user-friends"></i>
+                            <h5>serve</h5>
+                            <p>4 pessoas</p>
+                        </article>
+                    </div>
+                    <!-- recipe tags-->
+                    <div class="recipe-tags">
+                        Tags: <a href="/sobremesa-template.html">sobremesas</a>
+                    </div>
+                </article>
+            </section>
+            <!--recipe content-->
+            <section class="recipe-content">
+                <article>
+                    <h4>preparação</h4>
+                    <!--single instructions-->
+                    <div class="single-instructions">
+                        <header>
+                            <p>step 1</p>
+                            <div></div>
+                        </header>
+                        <p>
+                            Num processador ou robot de cozinha, adicionar o acabate, a água, o cacau em pó, a baunilha, o adoçante
+                            e uma pitada de sal.  
+                        </p>
+                    </div>
+                    <!--single instructions-->
+                    <div class="single-instructions">
+                        <header>
+                            <p>step 2</p>
+                            <div></div>
+                        </header>
+                        <p>
+                           Triturar todos os ingredientes até ficar cremoso, cerca de 1 minuto.
+                        </p>
+                    </div>
+                    <!--single instructions-->
+                    <div class="single-instructions">
+                        <header>
+                            <p>step 3</p>
+                            <div></div>
+                        </header>
+                        <p>
+                          Levar a mousse ao frigorífico no mínimo 30 minutos antes de servir.
+                        </p>
+                    </div>
+                </article>
+                <article class="second-column">
+                    <div>
+                        <h4>Ingredientes</h4>
+                        <p class="single-ingredient">
+                            1 abacate grande
+                        </p>
+                        <p class="single-ingredient">
+                            1 colher de chá de extracto de baunilha
+                        </p>
+                        <p class="single-ingredient">
+                            1/3 chávena de cacau em pó
+                        </p>
+                        <p class="single-ingredient">
+                            1/3 chávena de água
+                        </p>
+                        <p class="single-ingredient">
+                            1 1/2 colher de chá de stévia
+                        </p>
+                    </div>
+                </article>
+            </section>
+        </div>
+    </main>
+    <!--end of main-->
+    <!--footer-->
+    <footer class="page-footer">
+        <p>&copy; <span id="date"></span>
+            <span class="footer-logo"> Vegetarian Recipes </span>
+            built by <a href="https://github.com/brunadossantos-tech">Bruna Santos</a>
+        </p>
+    </footer>
+    <script src="./js/app.js"></script>
+</body>
+
+</html>
